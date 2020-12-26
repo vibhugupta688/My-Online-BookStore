@@ -1,0 +1,198 @@
+<html>
+    <head>
+        <style>
+            body{
+    background-image: url(fictionimage1.jfif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+
+    h1{
+        color: white;
+        text-align: center;
+        font-size: 1.2cm;
+        text-shadow: 2px 2px rgb(0,100,0);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+      
+    
+    li{
+        color: rgb(0,220,0);
+        font-size: 40px;
+        text-shadow: 1.5px 1.5px  rgb(0,100,0)  ;
+        font-family: Freestyle Script Regular;
+        text-align: center;
+   
+    }
+
+h1{
+    font-family: Freestyle Script Regular;
+    text-shadow: 2px 2px rgb(0,100,0);
+    color: rgb(0,220,0);
+    font-size: 60px;
+}
+
+
+
+#button3{
+           /* margin-top: 10px;
+             margin-bottom: -500px;
+             margin-right: 10px;
+             margin-left: 620px;*/
+             position: absolute;
+             left: 0px;
+             top: 0%;
+             font-size: 30px;
+             border: none;
+             font-family: Freestyle Script Regular;
+            outline: none;
+              background-color: rgb(0,128,0);
+             color: beige;
+             font-size : 35px;
+             padding: 6px 20px;
+             transition-duration: 0.4s;
+           }
+
+           a:visited{
+               color: black;
+           }
+
+           #button3:hover{
+               background-color: beige;
+               color:rgb(0,128,0);
+           }
+
+
+
+
+#tables {
+  font-family: Freestyle Script Regular;
+  font-size: 40px;
+  border-collapse: collapse;
+  width: 50%;
+  position: absolute;
+    left: 25%;
+}
+
+#tables td, #customers th {
+  
+  padding: 8px;
+}
+
+#tables tr:nth-child(even){background-color:lime;}
+#tables tr:nth-child(odd){background-color:lightgray;}
+
+#tables tr:hover {background-color: white;
+border: 1px solid black;
+
+}
+
+#tables th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(0,100,0);
+  color: white;
+}
+
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+        </style>
+
+    </head>
+    <body>
+<h1>FICTION BOOKS AT OUR STORE</h1>
+
+<ul type="disc" >
+<li > THE ALCHEMIST</li>
+<li>ALL THE LIGHT WE CANNOT SEE</li>
+<li>ANIMAL FARM</li>
+<li>CRIME & PUNISHMENT</li>
+<li>THE KITE RUNNER</li>
+<li>SHANTARAM</li>
+<li>THE BOOK THIEF</li>
+<li>THE FAULT IN OUR STARS</li>
+<li>WAR AND PEACE</li>
+<br>
+<br><br>
+
+<table  id="tables">
+    <tr>
+      <th>BOOK</th>
+      <th>PRICE</th>
+      <th>PURCHASE</th>
+    </tr>
+    <tr>
+      <td>The Alchemist</td>
+      <td>Rs 349</td>
+      <td><a href="Purchase.html" >Buy now</a></td>
+    </tr>
+    <tr>
+      <td>All the lights we cannot see </td>
+      <td> Rs 499</td>
+      <td><a href="Purchase.html" >Buy now</a></td>
+    </tr>
+    <tr>
+      <td> Animal Farm</td>
+      <td>Rs 299 </td>
+      <td><a href="Purchase.html" >Buy now</a></td>
+    </tr>
+    <tr>
+      <td> Crime & Punishment</td>
+      <td> Rs 249</td>     <td><a href="Purchase.html" >Buy now</a></td>
+    </tr>
+    <tr>
+      <td> The Kite Runner</td>
+      <td>Rs 499</td>
+      <td><a href="Purchase.html" >Buy now</a></td>
+    </tr>
+    <tr>
+      <td> Shantaram</td>
+      <td>Rs 599 </td>
+      <td><a href="Purchase.html" >Buy now</a></td>
+    </tr>
+    <tr>
+      <td> The Book theif </td>
+      <td> Rs 499</td>
+      <td><a href="Purchase.html" >Buy now</a></td>
+    </tr>
+    <tr>
+      <td>  The Fault in our Stars</td>
+      <td> Rs 399</td>
+      <td><a href="Purchase.html" >Buy now</a></td>
+    </tr>
+    <tr>
+      <td>War and Peace</td>
+      <td> Rs 450</td>
+      <td><a href="Purchase.html" >Buy now</a></td>
+    </tr>
+   
+  </table>
+
+
+  <button id="button3" onclick="myFunction3()">< BACK</imgsrc></button>
+       
+        <script>
+ 
+            function myFunction3(){
+                location.replace("Page3.html")
+            }
+        </script>
+
+</ul>
+
+<br>
+<br>
+<br>
+
+
+    </body>
+</html>

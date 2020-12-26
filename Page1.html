@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>
+    Page 1
+        </title>
+        <style>
+             body{
+                background-image: url("page1image2.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+           }
+
+
+
+           #button1{
+           /* margin-top: 500px;
+             margin-bottom: 10px;
+             margin-right: 10px;
+             margin-left: 220px;*/
+             position: absolute;
+             left: 100px;
+             top: 80%;
+             font-size: 30px;
+             border: none;
+            outline: none;
+            font-family: Harrington Regular ;
+             background-color: goldenrod;
+             color: beige;
+             font-size : 35px;
+             padding: 6px 20px;
+             transition-duration: 0.4s;
+           }
+
+           #button1:hover{
+               background-color: beige;
+               color:goldenrod;
+           }
+
+
+           #button2{
+           /* margin-top: 10px;
+             margin-bottom: -500px;
+             margin-right: 10px;
+             margin-left: 620px;*/
+             position: absolute;
+             right: 100px;
+             top: 20%;
+             font-size: 30px;
+             border: none;
+            outline: none;
+            font-family: Harrington Regular ;
+              background-color: goldenrod;
+             color: beige;
+             font-size : 35px;
+             padding: 6px 20px;
+             transition-duration: 0.4s;
+           }
+
+           #button2:hover{
+               background-color: beige;
+               color:goldenrod;
+           }
+
+               #button3{
+           /* margin-top: 10px;
+             margin-bottom: -500px;
+             margin-right: 10px;
+             margin-left: 620px;*/
+             position: absolute;
+             left: 0px;
+             top: 0%;
+             font-size: 30px;
+             border: none;
+             font-family: Harrington Regular ;
+            outline: none;
+              background-color: goldenrod;
+             color: beige;
+             font-size : 30px;
+             padding: 6px 20px;
+             transition-duration: 0.4s;
+           }
+
+           #button3:hover{
+               background-color: beige;
+               color:goldenrod;
+           }
+
+
+            </style>
+    </head>
+    <body>
+
+        <button id="button1" onclick="myFunction1()">Purchase</button>
+        <button id="button2" onclick="myFunction2()">Read</button>
+        <button id="button3" onclick="myFunction3()">< Back</imgsrc></button>
+       
+        <script>
+            function myFunction2(){
+                location.replace("Page2.html")
+            }
+            function myFunction1(){
+                location.replace("Page3.html")
+            }
+            function myFunction3(){
+                location.replace("BookStore.html")
+            }
+        </script>
+
+
+
+    </body>
+</html>

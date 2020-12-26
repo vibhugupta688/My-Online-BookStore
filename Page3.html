@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>
+    Page 3
+        </title>
+        <style>
+           
+body{
+    background-image: url(page3image1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+    #button1{
+          
+             position: absolute;
+             left: 450px;
+             top: 40%;
+             font-size: 30px;
+           
+             border: none;
+            outline: none;
+             background-color: rgb(185, 10, 10);
+             color: beige;
+             font-family:Impact Regular;
+             font-size : 45px;
+             padding: 80px 60px;
+             transition-duration: 0.4s;
+           }
+
+           #button1:hover{
+               background-color: beige;
+               color:rgb(185, 10, 10);
+           }
+
+
+           #button2{
+           
+             position: absolute;
+             right: 450px;
+             top: 40%;
+             font-size: 30px;
+             font-family:Impact Regular;
+             border: none;
+            outline: none;
+              background-color: rgb(30, 124, 168);
+             color: beige;
+             font-size : 40px;
+             padding: 60px 50px;
+             transition-duration: 0.4s;
+           }
+
+           #button2:hover{
+               background-color: beige;
+               color:rgb(30, 124, 168);
+           }
+
+           
+           #button3{
+           /* margin-top: 10px;
+             margin-bottom: -500px;
+             margin-right: 10px;
+             margin-left: 620px;*/
+             position: absolute;
+             left: 0px;
+             top: 0%;
+             font-size: 30px;
+             border: none;
+             font-family:Impact Regular;
+            outline: none;
+              background-color: rgb(30, 124, 168);
+             color: beige;
+             font-size : 30px;
+             padding: 6px 20px;
+             transition-duration: 0.4s;
+           }
+
+           #button3:hover{
+               background-color: beige;
+               color:rgb(30, 124, 168);
+           }
+
+            </style>
+    </head>
+    <body>
+
+        
+
+        <button id="button1" onclick="myFunction1()">Fiction</button>
+        <button id="button2" onclick="myFunction2()">Non</br>
+            Fiction</button>
+            <button id="button3" onclick="myFunction3()">< Back</imgsrc></button>
+       
+           
+       
+        <script>
+            function myFunction2(){
+                location.replace("non-fiction.html")
+            }
+            function myFunction1(){
+                location.replace("fiction.html")
+            }
+            function myFunction3(){
+                    location.replace("Page1.html")
+                }
+        </script>
+
+
+    </body>
+</html>
